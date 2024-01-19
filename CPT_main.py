@@ -358,7 +358,7 @@ def the_maze_game():
             # If the player hits the wall
             for wall in walls_5:
                 if mouse_rect.colliderect(wall):
-                    # main_menu = True
+                    main_menu = True
                     level_5 = False
 
             # If the player reaches the end
